@@ -156,7 +156,7 @@ app.listen(PORT, async () => {
             //checking if test is within 10 minutes
             recent = true;
           }
-          changed = after60[index];
+          changed = after60[index]
           break;
         }
       }
